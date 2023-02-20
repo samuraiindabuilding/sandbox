@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 252, 252);
 
     font-size: 16px;
     font-weight: normal;
@@ -27,11 +27,6 @@ a:visited{
     width: 200px;
     border-radius: 50%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
-}
-
-.info {
-    display: flex;
-    
 }
 
 .info p {
