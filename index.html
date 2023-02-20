@@ -4,84 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <img src="https://i.pinimg.com/originals/a8/e1/8c/a8e18cc28979435e56fbfeffd335440f.jpg" width="200" />
-    <div>
-        <h2>Алишер Нуредден</h2>
-        <p>Попытка освоить HTML</p>
-        <P>Здесь могла бы быть ваша реклама</P>
-    </div>
-    <hr />
-    <div>
-        <h2>Мои социальные сети</h2>
-    </div>
-    <ul>
-        <li>
-            <a href="https://instagram.com/alisher_redtdk?igshid=MWI4MTIyMDE=">Instgram</a>
-        </li>
-        <li>
-            <a href="https://web.telegram.org/k/#@NinJaz667">Telegram</a>
-        </li>
-    </ul>
-    <hr />
-    <div>
-        <h2>Мои хобби</h2>
-    </div>
-    <ol>
-        <li>JDM</li>
-        <li>Breaking</li>
-        <li>Програмирование</li>
-    </ol>
-    <hr />
-    <div>
-        <h2>Связаться со мной</h2>
-    </div>
-    <form>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="введите ваше имя...">
+    <body>
+        <div class="container">
+            <div class="info">
+            <img src="https://i.pinimg.com/originals/a8/e1/8c/a8e18cc28979435e56fbfeffd335440f.jpg" alt="моя аватарка" class="avatar"/>
+                        <div class="info-text"> 
+                            <h2>Алишер Нуредден</h2>
+                            <p>Попытка освоить HTML</p>
+                            <P>Здесь могла бы быть ваша реклама</P>
+                            <div class="social">
+                            <h2>Мои социальные сети</h2>
+                            <a href="https://instagram.com/alisher_redtdk?igshid=MWI4MTIyMDE=">Instgram</a>|
+                            <a href="https://web.telegram.org/k/#@NinJaz667">Telegram</a>
+                                            
+                        </div>
+            </div>
+                <div class="card > bg-yellow">
+                    <h2>Мои хобби</h2>
+                        <ol class="list">    
+                            <li>JDM</li>
+                            <li>Breaking</li>
+                            <li>Програмирование</li>
+                        </ol>
+                </div>
+                <div class="card > bg-green">
+                    <h2>Опыт работы</h2>
+                    <table class="table">
+                        <tr>
+                            <th>Компания</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                    НЕТ!
+                </div>
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                                 <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" placeholder="введите ваше имя...">
+                            </div>        
 
-        <br>
+                            <div class="form-group">
+                            <label for="email">Ваш Email:</label>
+                            <input type="email" id="email" placeholder="ваш email...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Ваше сообщение:</label>
+                        <textarea id="text"></textarea>
+                    </div>
 
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="ваш email...">
+                <input type="submit" value="Связаться!">
+                </form>
+            </div>
+            <h2>Cледущая страница</h2>
 
-        <br>
-
-        <label for="text">Ваше сообщение:</label>
-        <textarea id="text"></textarea>
-
-        <br>
-
-        <input type="submit" value="Связаться!">
-    </form>
-    <hr />
-
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-    </table>
-    НЕТ!
-    <hr />
-    <h2>Cледущая страница</h2>
-
-    <a href="pages/next-lvl.html">---></a>
-
-</body>
-
+            <a href="pages/next-lvl.html">---></a>
+        </div>
+        <div style="margin-bottom: 500px;"></div>
+    </body>
 </html>
